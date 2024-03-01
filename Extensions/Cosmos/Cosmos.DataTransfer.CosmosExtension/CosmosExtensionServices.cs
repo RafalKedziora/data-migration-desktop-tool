@@ -20,7 +20,7 @@ namespace Cosmos.DataTransfer.CosmosExtension
                 ConnectionMode = settings.ConnectionMode,
                 ApplicationName = userAgentString,
                 AllowBulkExecution = true,
-                EnableContentResponseOnWrite = false,
+                EnableContentResponseOnWrite = false
             };
 
             CosmosClient? cosmosClient;
